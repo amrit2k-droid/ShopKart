@@ -1,0 +1,46 @@
+.WelcomePage {
+    text-align: center;
+}
+
+img {
+    margin-top: 50px
+}
+#logout {
+    margin-top: 50px;
+    width: 100px;
+}
+
+.topbar {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    margin-top: 0px;
+    float: right;
+}
+
+.signout {
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: lightgray;
+    /* margin-right: -4px; */
+     margin-top: -60px; 
+    overflow: visible;
+    /* clear: right; */
+    /* padding-right: 49px; */
+    /* position: inherit; */
+    display: inline-bock;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 50px;
+    margin-right: 90px;
+}
+
+span.glyphicon.glyphicon-log-out {
+    margin-top: 11px;
+}
+
+.userName {
+    margin-top: 21px;
+    color: black;
+}

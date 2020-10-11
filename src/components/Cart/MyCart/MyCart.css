@@ -1,0 +1,42 @@
+.shopme {
+    /* background-color: yellow; */
+    float: left;
+    width: 800px;
+    margin-left: 262px;
+}
+
+.orderTable {
+    margin-top: 50px;
+    border: 2px solid black;
+    margin-left: 100px;
+    width: 4;
+    width: 587px;
+}
+
+.totalPrice {
+    /* background-color: pink; */
+    width: 400px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+#clearCartBtn {
+    float: left;
+    margin-left: 100px;
+}
+
+#payBtn {
+    float: left;
+    margin-left: 10px;
+}
+
+.cartPdtHeader {
+    margin-top: 28px;
+    position: absolute;
+    margin-left: 99px;
+}
+
+.defaultImg {
+    width: 200px;
+    height: 200px;
+}

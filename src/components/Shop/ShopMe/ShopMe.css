@@ -1,0 +1,41 @@
+
+.pdtTable {
+    margin-left: 36px;
+    border: 2px solid black;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.shopping {
+    float: left;
+   /*  background-color: yellow; */
+    display: inline-block;
+}
+
+.addtocart {
+   /*  background-color: pink; */
+    display: inline-block;
+    width: 600px;
+    padding-top: 30px;
+}
+
+.cartTable {
+    margin-top: 20px;
+    margin-left: 35px;
+    /* width: 600px; */
+    width: 507px;
+    border: 2px solid black
+}
+
+#addToCartBtn {
+    float: left;
+    margin-left: 33px;
+    margin-top: 8px;
+}
+
+.pdtHeader {
+    float: left;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 37px;
+}

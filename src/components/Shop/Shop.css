@@ -1,0 +1,26 @@
+.shop {
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: lightgray;
+    /* margin-right: -4px; */
+    margin-top: -61px;
+    overflow: visible;
+    /* clear: right; */
+    /* padding-right: 49px; */
+    /* position: inherit; */
+    display: inline-bock;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 50px;
+    margin-right: 374px;
+}
+
+/* .glyphicon {
+    font-size: 30px;
+    margin-top: 25%
+} */
+
+span.glyphicon.glyphicon-home {
+    margin-top: 10px;
+}
