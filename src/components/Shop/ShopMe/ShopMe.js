@@ -17,11 +17,15 @@ class ShopMe extends Component {
 
     componentDidMount() {
         let currentUser = JSON.parse(localStorage.getItem('loggedInUser'));
+        let productQty = [];
         fetch('/products.json')
             .then(res => res.json())
             .then(data => {
                 console.log("products -->", data);
                 localStorage.setItem(currentUser + "_productlist", JSON.stringify(data));
+                this.setState({
+                    products: data
+                })
             })
 
         let productArray = []

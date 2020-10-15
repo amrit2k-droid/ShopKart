@@ -51,6 +51,8 @@ class Register extends Component {
             user: [...userDt],
             pwd: [...pwdDt]
         })
+
+    //    localStorage.clear();
         
     }
 
